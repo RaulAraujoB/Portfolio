@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color:rgb(44, 25, 65);
+}
+.wrapper,portfolio
+{
+  width:100vw;
+  height:100vh;
+  background-color:rgb(44, 25, 65);
+  color:rgb(224, 200, 176);
+}
+
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  padding:2mm;
+}
+
+.brand{
+  margin-top:-7px;
+}
+
+.brand span{
+  color:rgb(77, 206, 163);
+}
+
+.hola{
+  display:flex;
+  width:50%;
+  justify-content: space-around;
+}
+
+.hola li{
+  list-style: none;
+}
+
+.hola a{
+  color:white;
+  text-decoration:none;
+  padding:10px 20px;
+}
+
+
+.hola .active {
+  color:rgb(77, 206, 163);
+}
+
+.hola a:hover{
+  background-color:green;
+  color:rgb(89, 65, 117);
+  transition:ease-in cubic-bezier(0.445, 0.05, 0.55, 0.95)
+}
+
+.main{
+  margin: 0a auto;
+  width:80vw;
+  height:80vh;
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+  align-items: center;
+}
+
+h1{
+  font-size: 3em;
+}
+
+span{
+  color:aquamarine
+}
+
+.download-cv {
+  padding: 10px 20px;
+  background-color: aquamarine;
+  border:none;
+  border-radius:20px;
+  margin-top:10px;
+  cursor: pointer;
+  box-shadow: 1px 3px 11px -5px rgba(102,231,200, .69)
+}
+
+.download-cv:hover{
+background-color: white;
+box-shadow:none;
+}
+
+.main img{
+  width:750px;
+  height: 620px;
+  z-index: 1;
+  margin: auto;
+}
+
+
+.about {
+  display:grid;
+  grid-template-columns: repeat(10,1fr);
+  width: 100vw;
+  align-items: center;
+}
+
+.about img{
+  width:100%;
+  grid-column: 1/5;
+}
+
+.about-info{
+  grid-column: 5/10;
+  padding:3em;
+}
+
+.about.info h2{
+  font-size: 2em;
+  color:rgb(44, 25, 65);
+}
+
+.divider {
+  height: 4px;
+  width: 60px;
+  background-color: aquamarine;
+  margin-top: 5px;
+  margin-bottom: 4em;
+
+}
+
+.about p{
+  margin-bottom: 1em;
+}
+
+.portfolio-headings {
+  width:100vw;
+  padding:5em;
+
+}
+
+.portfolio-headings h2 {
+  font-size:2.5em; /* para que crezca un poco */
+}
+
+.portfolio .container {
+  width:80vw;
+  height: 80vh;
+  margin: 0 auto;
+  display:flex;
+  justify-content: center;
+}
+
+.card{
+  width: 300px;
+  height: 350px;
+  background-color: white;
+
+}
+
+.card_img {
+  width: 100%;
+  height: 300px;
+  background-image: url(https://dthezntil550i.cloudfront.net/rs/latest/rs1609251222555940000085740/1280_960/3ce81a41-4df2-4cc8-80c1-cc125a8e6229.jpg);
+  background-size:cover;
+}
+
+.card_title{
+  padding:20px;
+}
+
+.card_proyects-links{
+  display:flex;
+  justify-content: space-evenly;
+
+}
+
+.card_proyects-links a {
+  color:aquamarine;
+  text-decoration: none;
+}
+
+.card_proyects-links i {
+  font-size:2em;
+}
+
+.card .project-details {
+  margin:0 auto;
+  margin:1em;
+  width:90%;
+ 
+}
+.card .project-details a{
+  text-decoration: none;
+}
+
+
+
+
